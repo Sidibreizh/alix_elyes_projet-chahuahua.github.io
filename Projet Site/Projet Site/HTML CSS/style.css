@@ -1,0 +1,674 @@
+body
+{
+    font-family: Bahnschrift;
+    margin: 0px;
+    padding: 0px;
+    background: no-repeat url("../IMAGES/paws.jpg");
+}
+
+/* Barre de Navigation */
+
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+}
+
+nav h1
+{
+    margin-top: 10px;
+}
+
+label
+{
+    display: none;
+}
+
+label, #deroulant
+{
+    display: none;
+}
+
+nav .onglets
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .onglets a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav .onglets p
+{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav .onglets input
+{
+    margin: 15px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+
+/* Header index */
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1
+{
+    font-size: 50px;
+    max-width: 50%;
+    text-align: center;
+}
+
+header button
+{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: gray;
+}
+
+
+/* Ventes index */
+
+.main
+{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ventes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ventes .vente
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.ventes .vente img
+{
+    width: 350px;
+}
+
+.ventes .vente .vente-header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ventes .vente .vente-body p
+{
+    margin-top: -10px;
+    margin-left: 0px;
+}
+
+/*liste_animaux*/
+
+.separator{
+    width: 40px;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #999999;
+}
+
+.contener{
+    width: 80%;
+    margin: auto;
+    line-count: 3;
+
+}
+
+#dogcat{
+    margin-top: 50px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.chat{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 60px ;
+    display : inline-block;
+    background-color: antiquewhite;
+    padding-bottom: 15px;
+    border: 0px black solid;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+    justify-content: space-around;
+}
+
+.chat span
+{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+.chat img 
+{
+    width: 500px;
+    height: 600px;
+}
+
+.chat:hover
+{
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+    transition: 0.3s;
+}
+
+.tofanimal
+{
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+/*animal*/
+
+p{
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.3em;
+}
+
+.contener{
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px grey inset;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.contener h2{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.animal p{
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.4em;
+}
+
+.picture
+{
+    width: 400px;
+    height: 500px;
+    display:flex;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.dessin 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texte 
+{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.cara
+{
+    font-weight: bold;
+}
+
+h3
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1.7em;
+}
+
+.toundra
+{
+    background-color: #f5e6ab;
+}
+
+.inuk
+{
+    background-color: #d81d1d;
+}
+
+.kahlan
+{
+    background-color: #e84ec0;
+}
+
+.pin_s
+{
+    background-color: #f26e0d;
+}
+
+.ajna
+{
+    background-color: #ac5ef7;
+}
+
+.miou
+{
+    background-color: #1af70a;
+}
+strong
+{
+    font-weight: bold;
+}
+
+/*qui*/
+
+p{
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.3em;
+}
+
+.contener{
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px grey inset;
+    border-radius: 20px;
+}
+
+.contener h2{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+h3
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 1.7em;
+}
+
+.toffondateur
+{
+    margin-top: 30px;
+    display : flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.1em
+}
+
+.tofelyes
+{
+    background-size: cover;
+    height: 400px;
+    width: 325px;
+    border-radius: 10px;
+}
+
+.tofalix
+{
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/*panier*/
+
+.boutonpanier
+{
+    text-align: center;
+    margin-top: 40px;
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14.3em
+
+}
+
+.boutonpanier p
+{
+    text-align: center;
+    font-size: 1.17em;
+}
+
+.boutonpanier:hover
+{
+    font-size: 1.2em;
+    font-weight: 900;
+    cursor: pointer;
+}
+.toundra_panier .boutonpanier
+{
+    background-color: yellow;
+}
+
+.toundra_panier .boutonpanier:hover
+{
+    background-color: gold;
+}
+
+.inuk_panier .boutonpanier
+{
+    background-color: #d81d1d;
+}
+
+.inuk_panier .boutonpanier:hover
+{
+    background-color: #bc1212;
+}
+
+.kahlan_panier .boutonpanier
+{
+    background-color: #e84ec0;
+}
+
+.kahlan_panier .boutonpanier:hover
+{
+    background-color: #ab4390;
+}
+
+.pin_s_panier .boutonpanier
+{
+    background-color: #f26e0d;
+}
+
+.pin_s_panier .boutonpanier:hover
+{
+    background-color: #9c5019;
+}
+
+.ajna_panier .boutonpanier
+{
+    background-color: #ac5ef7;
+}
+
+.ajna_panier .boutonpanier:hover
+{
+    background-color: #6624a5;
+}
+
+.miou_panier .boutonpanier
+{
+    background-color: #1af70a;
+}
+
+.miou_panier .boutonpanier:hover
+{
+    background-color: #29bf1e;
+}
+
+/* Formulaire de contact */
+
+.responsive-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 15vh auto;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 15px cyan;
+    background-color: gray;
+}
+.responsive-form h2
+{
+    color: white;
+}
+        
+.responsive-form form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+        
+.responsive-form input
+{
+    width: 100%;
+    margin: 5px 0;
+    height: 35px;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    
+}
+        
+.responsive-form textarea
+{
+    font-family: Bahnschrift;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background: white;
+}
+
+.responsive-form input[type=submit]{
+    margin: 10px auto;
+    width: 120px;
+    background: cyan;
+    color: white;
+    cursor: pointer;
+}
+
+.responsive-form input[type=submit]:hover
+{
+    color : grey;
+}
+
+
+/* Merci */
+
+.merci
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 15vh auto;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 15px orange;
+    background-color: gray;
+    color: white;
+}
+.merci h2
+{
+    color: white;
+}
+
+/* Footer */
+
+footer
+{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer .reseaux-sociaux
+{
+    display: flex;
+}
+
+footer p:hover
+{
+    color: cyan;
+}
+footer .reseaux-sociaux a
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
+
+footer .reseaux-sociaux a:hover
+{
+    color: cyan;
+}
+
+
+@media screen and (max-width: 640px)
+{
+  
+    nav .onglets
+    {
+        display: none;
+        flex-direction: column;
+        background: grey;
+    }
+    
+    nav .onglets input
+    {
+        margin: 30px 0px;
+    }
+   
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 10px;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #deroulant:checked + .onglets
+    {
+        display: flex;
+    }
+    
+    
+    header h1
+    {
+        font-size: 25px;
+    }
+    
+    
+    .ventes .vente img
+    {
+        width: 300px;
+    }
+    
+    .contener
+    {
+        width: 90%;
+    }
+    
+    .picture
+    {
+        width: 365px;
+        height: 465px;
+        justify-content: center;
+    }
+    
+    .responsive-form
+    {
+        width: 70%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
