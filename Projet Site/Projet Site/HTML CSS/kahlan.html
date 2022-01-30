@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="fr">
     
 <head>
     <meta charset="UTF-8">
@@ -23,13 +24,14 @@
         <input type="checkbox" id="deroulant">
         <div class="onglets">
             <a href="nos_animaux.html">Nos animaux</a>
-            <a href="qui_sommes_nous.html">Qui sommes-nous ?</a>
-            <a href="details_techniques.html">Détails techniques</a>
+            <a href="qui.html">Qui sommes-nous ?</a>
+            <a href="contact.html">Contact</a>
             <form>
                 <input type="search" placeholder="Rechercher">
             </form>
-            <p><i class="far fa-heart"></i></p>
-            <p><i class="fas fa-shopping-cart"></i></p>
+            <a href="panier_plein.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href="details_techniques.html"><i class="fas fa-cogs"></i></a>
+        </div>
     </nav>
     
     <!-- Fin Nav -->
@@ -43,7 +45,7 @@
                 <p>Chat de taille moyenne et de constitution robuste, le Chartreux est un compagnon débrouillard, intelligent et au caractère bien affirmé. Attaché à son propriétaire tout en conservant une assez grande indépendance, il sait apprécier les moments de tendresse, mais sait aussi y mettre fin quand il n’en veut plus.<br>Race aux origines anciennes, le Chartreux est bien plus populaire en France qu’ailleurs dans le monde, notamment au Royaume-Uni où on lui préfère le British Shorthair national. D’ailleurs, une certaine confusion avec ce dernier a longtemps régné du fait de croisements.<br>En résumé, ce chat est fait pour s’entendre avec toute sa famille, qu’elle comprenne d’autres animaux ou pas.</p>
             </div>
             <div class="picture">
-                <img src="../PHOTOS/kahlan.jpg"alt="kahlan">
+                <img src="../PHOTOS/kahlan.jpg" alt="kahlan">
             </div>
 
             <div class="dessin">
@@ -105,13 +107,18 @@
 
         <section>
             <h3 class="kahlan">Prix</h3>
-            <p>Le prix d'achat d'une Européenne croisée Chartreux bien grasse de 8 Kg est de <strong>2000 &euro; (Tout Poids/Poils Compris)</strong>.</p>
+            <p>Le prix d'achat d'une Européenne croisée Chartreux bien grasse de 8 Kg est de <strong>2000&euro; (Tout Poids/Poils Compris)</strong>.</p>
         </section>
 
     </div>
 
     <div class="kahlan_panier">
-    <div class="boutonpanier"><p>Mettre dans le panier<p></div>
+    <div class="boutonpanier">
+        <form action="ajout_kahlan.html">
+                <button type="submit">Ajouter au panier  <i class="fas fa-shopping-cart"></i>
+                </button>
+        </form>
+    </div>
     </div>
     
     <!-- Fin animal -->

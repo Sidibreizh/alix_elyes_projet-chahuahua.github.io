@@ -24,23 +24,33 @@
         <input type="checkbox" id="deroulant">
         <div class="onglets">
             <a href="nos_animaux.html">Nos animaux</a>
-            <a href="qui_sommes_nous.html">Qui sommes-nous ?</a>
-            <a href="details_techniques.html">Détails techniques</a>
+            <a href="qui.html">Qui sommes-nous ?</a>
+            <a href="contact.html">Contact</a>
+            
             <form>
                 <input type="search" placeholder="Rechercher">
             </form>
-            <a href="#"><i class="far fa-heart"></i></a>
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="panier_plein.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href="details_techniques.html"><i class="fas fa-cogs"></i></a>
+        </div>
     </nav>
         
         
         
     <!-- Header -->
-        
+    
+   <div class="contener">
     <header>
         <h1> Bienvenue sur Chahuahua !<br/>Vente d'animaux au poids</h1>
-        <button>Naviguer <i class="fas fa-paper-plane"></i></button>
     </header>
+    </div>
+        
+    <!-- Citation du jour -->
+    <div class="citation">
+        <h2><i class="fas fa-dog"></i>   Citation du jour   <i class="fas fa-cat"></i></h2>
+        <blockquote>«Qui aime un chat aime tous les chats. Qui aime son chien n’aime pas les autres.»</blockquote>
+        <p>Roland TOPOR</p>
+    </div>
         
         
     <!-- Ventes -->
@@ -48,7 +58,7 @@
     <section class="main">
         <div class="ventes">
             <div class="vente">
-                <img src="../PHOTOS/kahlan.jpg">
+                <a href="kahlan.html"><img src="../PHOTOS/kahlan.jpg" alt="kahlan"></a>
                 <div class="vente-header">
                     <h4 class="titre">Chat 8kg</h4>
                     <h4 class="prix">2000€</h4>
@@ -57,7 +67,7 @@
                 <p>Croisée bien grasse de 8 Kg</p></div>
             </div>
             <div class="vente">
-                <img src="../PHOTOS/toundra.jpg">
+                <a href="toundra.html"><img src="../PHOTOS/toundra.jpg" alt="toundra"></a>
                 <div class="vente-header">
                     <h4 class="titre">Chat 6,7kg</h4>
                     <h4 class="prix">1500€</h4>
@@ -66,15 +76,18 @@
                 <p>Korat bien grasse de 6,7 Kg</p></div>
             </div>
             <div class="vente">
-                <img src="../PHOTOS/pin_s%20.jpg">
+                <a href="pin_s.html"><img src="../PHOTOS/pin_s%20.jpg" alt="pin's"></a>
                 <div class="vente-header">
                     <h4 class="titre">Chihuahua 3kg</h4>
-                    <h4 class="prix">2000€</h4>
+                    <h4 class="prix"><s>2000</s> 1500€</h4>
                 </div>
                 <div class="vente-body">
                 <p>Chihuahua bien grasse de 3 Kg</p></div>
             </div>
         </div>
+            <form action="nos_animaux.html">
+                <button type="submit">Voir tous les animaux <i class="fas fa-paper-plane"></i></button>
+            </form>
         </section>
         
         <!-- Footer -->

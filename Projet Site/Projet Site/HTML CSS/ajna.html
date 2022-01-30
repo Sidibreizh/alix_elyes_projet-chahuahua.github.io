@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="fr">
     
 <head>
     <meta charset="UTF-8">
@@ -23,13 +24,14 @@
         <input type="checkbox" id="deroulant">
         <div class="onglets">
             <a href="nos_animaux.html">Nos animaux</a>
-            <a href="qui_sommes_nous.html">Qui sommes-nous ?</a>
-            <a href="details_techniques.html">Détails techniques</a>
+            <a href="qui.html">Qui sommes-nous ?</a>
+            <a href="contact.html">Contact</a>
             <form>
                 <input type="search" placeholder="Rechercher">
             </form>
-            <p><i class="far fa-heart"></i></p>
-            <p><i class="fas fa-shopping-cart"></i></p>
+            <a href="panier_plein.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href="details_techniques.html"><i class="fas fa-cogs"></i></a>
+        </div>
     </nav>
     
     <!-- Fin Nav -->
@@ -43,7 +45,7 @@
                 <p>Vous avez toujours rêvé d’avoir un petit tigre à la maison ? Le Toyger, couramment appelé "chat tigre", en est un. Du moins, un tigre en miniature. Il possède son physique, son élégance et sa démarche. Son caractère, lui, est bien plus sociable. Cette race de chat assez récente a pris le pli de la docilité envers l’humain. Le Toyger est adorable envers son propriétaire, sa famille adoptive et même les étrangers. Il est vif, plutôt sportif et adore jouer avec les plus jeunes. Il conviendra à tout le monde. Son attachement sera proportionnel à son épanouissement.</p>
             </div>
             <div class="picture">
-                <img src="../PHOTOS/ajna.jpg"alt="ajna">
+                <img src="../PHOTOS/ajna.jpg" alt="ajna">
             </div>
 
             <div class="dessin">
@@ -105,13 +107,18 @@
 
         <section>
             <h3 class="ajna">Prix</h3>
-            <p>Le prix d'achat d'une petite Européenne croisé Toyger de 4 Kg est de <strong>1000 &euro; (Tout Poids/Poils Compris)</strong>.</p>
+            <p>Le prix d'achat d'une petite Européenne croisé Toyger de 4 Kg est de <strong>1000&euro; (Tout Poids/Poils Compris)</strong>.</p>
         </section>
 
     </div>
 
     <div class="ajna_panier">
-    <div class="boutonpanier"><p>Mettre dans le panier<p></div>
+    <div class="boutonpanier">
+        <form action="ajout_toundra.html">
+                <button type="submit">Ajouter au panier  <i class="fas fa-shopping-cart"></i>
+                </button>
+        </form>
+    </div>
     </div>
     
     <!-- Fin animal -->

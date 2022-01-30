@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Chahuahua - Vente d'animaux au poids</title>
+    <link rel="shortcut icon" type="image/x-icon" href="Icon.jpg" />
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+</head>
+    
+<body>
+    
+    <!-- Barre de Navigation -->
+    
+    <nav>
+        <h1>
+            <a href="index.html">
+            <img src="../IMAGES/Chahuahua.png" alt="Chahuahua" />
+            </a>
+        </h1>
+        	
+        <label for="deroulant">☰</label>
+        <input type="checkbox" id="deroulant">
+        <div class="onglets">
+            <a href="nos_animaux.html">Nos animaux</a>
+            <a href="qui.html">Qui sommes-nous ?</a>
+            <a href="contact.html">Contact</a>
+            <form>
+                <input type="search" placeholder="Rechercher">
+            </form>
+            <a href="panier_plein.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href="details_techniques.html"><i class="fas fa-cogs"></i></a>
+        </div>
+    </nav>
+        
+    <!-- Panier -->
+    <section class="main">
+    <div class="Cart-Container">
+        <div class="Header">
+            <h3 class="Heading">PANIER</h3>
+            <h5 class="Action"><a href="panier_vide.html">Supprimer tout</a></h5>
+        </div>
+        <div class="Cart-Items">
+            <div class="image-box">
+                <img src="../PHOTOS/m%C3%AFou.jpg" alt="Mïou"/>
+            </div>
+            <div class="about">
+            <h1 class="title">Européenne grasse</h1>
+            <h3 class="subtitle">6kg</h3>
+            <img src="../IMAGES/cercle_vert.png" alt="disponible"/>
+            </div>
+            <div class="counter">
+                <div class="btn">-</div>
+                <div class="count">1</div>
+                <div class="btn">+</div></div>
+            <div class="prices">
+            <div class="amount">1000&euro;</div>
+            <div class="remove"><a href="panier_vide.html">Supprimer</a></div></div>
+        </div>
+        <hr> 
+        <div class="checkout">
+            <div class="total">
+                <div>
+                    <div class="Subtotal">Total</div>
+                    <div class="items">1 poids poils</div>
+                </div>
+                <div class="total-amount">1000&euro;</div>
+            </div>
+            <form action="https://www.paypal.com">
+                <button class="button">Acheter</button></form>
+        </div>
+    </div>
+    </section>
+
+        
+        <!-- Footer -->
+        
+        <footer>
+            <p>&copy; 2022 Chahuahua <i class="fas fa-paw"></i></p>
+            <div class="reseaux-sociaux">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </footer>
+        
+        
+    
+</body>
+    
+</html>

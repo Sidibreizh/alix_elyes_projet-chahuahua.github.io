@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-    
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Chahuahua - Korat</title>
@@ -23,13 +24,14 @@
         <input type="checkbox" id="deroulant">
         <div class="onglets">
             <a href="nos_animaux.html">Nos animaux</a>
-            <a href="qui_sommes_nous.html">Qui sommes-nous ?</a>
-            <a href="details_techniques.html">Détails techniques</a>
+            <a href="qui.html">Qui sommes-nous ?</a>
+            <a href="contact.html">Contact</a>
             <form>
                 <input type="search" placeholder="Rechercher">
             </form>
-            <p><i class="far fa-heart"></i></p>
-            <p><i class="fas fa-shopping-cart"></i></p>
+            <a href="panier_plein.html"><i class="fas fa-shopping-cart"></i></a>
+            <a href="details_techniques.html"><i class="fas fa-cogs"></i></a>
+        </div>
     </nav>
     
     <!-- Fin Nav -->
@@ -105,13 +107,18 @@
 
         <section>
             <h3 class="inuk">Prix</h3>
-            <p>Le prix d'achat d'un grand Toyger de 6 Kg est de <strong>2000 &euro; (Tout Poids/Poils Compris)</strong>.</p>
+            <p>Le prix d'achat d'un grand Toyger de 6 Kg est de <strong>2000&euro; (Tout Poids/Poils Compris)</strong>.</p>
         </section>
 
     </div>
 
     <div class="inuk_panier">
-    <div class="boutonpanier"><p>Mettre dans le panier<p></div>
+    <div class="boutonpanier">
+        <form action="ajout_inuk.html">
+                <button type="submit">Ajouter au panier  <i class="fas fa-shopping-cart"></i>
+                </button>
+        </form>
+    </div>
     </div>
     
     <!-- Fin animal -->
