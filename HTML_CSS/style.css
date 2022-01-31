@@ -858,6 +858,16 @@ footer .reseaux-sociaux a:hover
         width: 275px;
         height: auto;
     }
+    
+    .cara
+    {
+        font-size: 80%;
+    }
+
+    .cara + span
+    {
+        font-size: 80%;
+    }
 }
 
 
