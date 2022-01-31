@@ -531,6 +531,8 @@ h3
 {
     padding-bottom: 5%;
 }
+
+
 /* Formulaire de contact */
 
 .responsive-form
@@ -622,6 +624,8 @@ h3
 }
 
 /* Panier plein */
+
+
 .panier_plein
 {
     display: flex;
@@ -653,6 +657,62 @@ h3
     margin-left: 0px;
 }
 
+
+/* Ajout Panier */
+
+.merci_panier
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 15vh auto;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 15px purple;
+    background: linear-gradient(to bottom right, silver, grey);
+    color: white;
+}
+.merci_panier h2
+{
+    color: white;
+}
+.merci_panier img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 15px;
+    
+}
+
+/* Détails techniques */
+
+.tech
+{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.descriptif h1
+{
+    font-size: 40px;
+    text-align: center;
+}
+
+.descriptif h2
+{
+    margin-left: 3%;
+}
+.descriptif
+{
+    margin: 0% 3%;
+}
+.descriptif p
+{
+    text-align: justify;
+}
 
 /* Footer */
 
@@ -691,36 +751,6 @@ footer .reseaux-sociaux a
 footer .reseaux-sociaux a:hover
 {
     color: cyan;
-}
-
-/* Ajout Panier */
-
-.merci_panier
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 500px;
-    margin: 15vh auto;
-    padding: 15px;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 0 0 15px purple;
-    background: linear-gradient(to bottom right, silver, grey);
-    color: white;
-}
-.merci_panier h2
-{
-    color: white;
-}
-.merci_panier img
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    border-radius: 15px;
-    
 }
 
 @media screen and (max-width: 900px)
