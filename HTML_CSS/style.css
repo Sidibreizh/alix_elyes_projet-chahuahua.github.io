@@ -104,6 +104,11 @@ header h1
     background: linear-gradient(to bottom right, silver, grey);
     color: white;
 }
+
+.citation img
+{
+    width: 60%;
+}
 .citation h2
 {
     color: white;
@@ -784,12 +789,15 @@ footer .reseaux-sociaux a:hover
         display: flex;
     }
     
-    
     header h1
     {
         font-size: 25px;
     }
     
+    .citation
+    {
+        width: 75%;
+    }
     
     .ventes .vente img
     {
