@@ -521,9 +521,9 @@ h3
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;;
-    
+    justify-content: space-around;; 
 }
+
 .iut
 {
     height: 100%;
@@ -532,8 +532,11 @@ h3
     font-size: 20px;
     font-weight: 800;
 }
-.maps
+
+.maps iframe
 {
+    width:400px; 
+    height:300px;
     padding-bottom: 5%;
 }
 
@@ -834,6 +837,11 @@ footer .reseaux-sociaux a:hover
         width: 75%;
     }
     
+    .maps iframe
+    {
+        width:100%; 
+
+    }
 }
 
 
