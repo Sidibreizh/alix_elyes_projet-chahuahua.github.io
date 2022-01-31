@@ -6,7 +6,6 @@ body
     background: no-repeat url("../IMAGES/paws.jpg");
     justify-content: center;
     align-items: center;
-    
 }
 
 .main
@@ -136,6 +135,7 @@ header h1
 }
 
 /* Panier Plein */
+
 .Cart-Items
 {
     margin: auto;
@@ -325,6 +325,7 @@ footer p:hover
 {
     color: cyan;
 }
+
 footer .reseaux-sociaux a
 {
     text-decoration: none;
@@ -342,7 +343,12 @@ footer .reseaux-sociaux a:hover
     color: cyan;
 }
 
-@media screen and (max-width: 900px)
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 950px)
 {
   
     nav .onglets
@@ -373,14 +379,85 @@ footer .reseaux-sociaux a:hover
         display: flex;
     }
     
-    
-@media screen and (max-width: 800px)
+    footer
+    {
+        padding: 5%;
+        justify-content: center;
+        bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 1000px)
 {
     
     .Cart-Container
     {
         width: 90%;
         margin-top: 5%;
+    }
+    
+    
+    .title
+    {
+    padding-top: 20%;
+    line-height: 10px;
+    font-size: 21px;
+    }
+
+    .subtitle
+    {
+    font-size: 18px;
+    padding-bottom: 10%;
+    }
+
+    .btn
+    {
+    width: 35px;
+    height: 35px;
+    }
+    
+    .prices
+    {
+        padding-top: 10%;
+    }
+    
+    .total
+    {
+    width: 90%;
+    }
+
+    .Subtotal
+    {
+    font-size: 19px;
+    }
+
+    .items
+    {
+    font-size: 13px;
+    line-height: 12px;
+    }
+    
+    .total-amount
+    {
+    font-size: 33px;
+    }
+    
+    .button
+    {
+    margin-top: 5px;
+    height: 35px;
+    font-size: 18px;
+    }
+}
+    
+@media screen and (max-width: 800px)
+{
+
+    
+    .about
+    {
+        padding-top: 10%;
     }
     
     .title
@@ -405,39 +482,46 @@ footer .reseaux-sociaux a:hover
     {
     width: 30px;
     height: 30px;
+    }
     
+    .prices
+    {
+        padding-top: 15%;
     }
     .total
     {
     width: 90%;
     }
 
-.Subtotal
-{
+    .Subtotal
+    {
     font-size: 19px;
-}
+    }
 
-.items
-{
+    .items
+    {
     font-size: 13px;
     line-height: 12px;
-}
+    }
+    
     .total-amount
-{
+    {
     font-size: 33px;
-}
+    }
+    
     .button
-{
+    {
     margin-top: 5px;
     height: 35px;
     font-size: 13px;
-}
+    }
+    
     .amount
-{
+    {
     padding-top: 20px;
     font-size: 26px;
     font-weight: 800;
-}
+    }
 
 }
     
@@ -446,6 +530,7 @@ footer .reseaux-sociaux a:hover
     .about
     {
         width: 25%;
+        padding-left: 10%
     }
     
     .about img
@@ -455,20 +540,24 @@ footer .reseaux-sociaux a:hover
      .title
     {
         padding-top: 15%;
-        font-size: 15px;
+        font-size: 13px;
         line-height: inherit;
     }
 
     .subtitle
     {
-        font-size: 13px;
+        font-size: 10px;
     }
     
-        .btn
+    .btn
     {
-        width: 25px;
-        height: 25px;
+        width: 15px;
+        height: 15px;
     
+    }
+    .prices
+    {
+        padding-top: 25%;
     }
 
     .Subtotal
@@ -484,7 +573,7 @@ footer .reseaux-sociaux a:hover
     
     .total-amount
     {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .button
@@ -496,7 +585,12 @@ footer .reseaux-sociaux a:hover
     
     .amount
     {
+        
         padding-top: 45%;
-        font-size: 20px;
+        font-size: 15px;
+    }
+    .remove a
+    {
+        font-size: 7px;
     }
 }
