@@ -666,7 +666,7 @@ h3
     flex-direction: column;
     align-items: center;
     width: 500px;
-    margin: 15vh auto;
+    margin: 15vh auto 30%;
     padding: 15px;
     border-radius: 20px;
     border: none;
@@ -753,7 +753,7 @@ footer .reseaux-sociaux a:hover
     color: cyan;
 }
 
-@media screen and (max-width: 950px)
+@media screen and (max-width: 900px)
 {
   
     nav .onglets
@@ -820,9 +820,13 @@ footer .reseaux-sociaux a:hover
         justify-content: center;
         bottom: 0;
     }
+    
+    .merci_panier
+    {
+        width: 75%;
+    }
+    
 }
-
-
 
 
 
