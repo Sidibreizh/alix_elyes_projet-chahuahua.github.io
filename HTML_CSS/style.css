@@ -753,7 +753,7 @@ footer .reseaux-sociaux a:hover
     color: cyan;
 }
 
-@media screen and (max-width: 900px)
+@media screen and (max-width: 950px)
 {
   
     nav .onglets
@@ -814,6 +814,12 @@ footer .reseaux-sociaux a:hover
         width: 70%;
     }
     
+    footer
+    {
+        padding: 5%;
+        justify-content: center;
+        bottom: 0;
+    }
 }
 
 
