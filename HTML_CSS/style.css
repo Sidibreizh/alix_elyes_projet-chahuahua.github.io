@@ -134,6 +134,11 @@ header h1
     justify-content: center;
 }
 
+.ventes .vente
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .ventes .vente img
 {
     width: 350px;
