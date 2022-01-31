@@ -846,6 +846,18 @@ footer .reseaux-sociaux a:hover
     {
         width: 75%;
     }
+    
+    .tofelyes
+    {
+        width: 275px;
+        height: auto;
+    }
+    
+    .tofalix
+    {
+        width: 275px;
+        height: auto;
+    }
 }
 
 
