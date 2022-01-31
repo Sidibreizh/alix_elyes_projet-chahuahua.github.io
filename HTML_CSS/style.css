@@ -840,7 +840,11 @@ footer .reseaux-sociaux a:hover
     .maps iframe
     {
         width:100%; 
-
+    }
+    
+    .merci
+    {
+        width: 75%;
     }
 }
 
